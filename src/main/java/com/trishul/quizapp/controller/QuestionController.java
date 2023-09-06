@@ -5,7 +5,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 import com.trishul.quizapp.service.QuestionService;
-import com.trishul.quizapp.Question;
+
+import com.trishul.quizapp.model.Question;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 

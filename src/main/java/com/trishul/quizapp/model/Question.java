@@ -1,4 +1,4 @@
-package com.trishul.quizapp;
+package com.trishul.quizapp.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -20,6 +20,13 @@ public class Question {
 	private String rightAnswer;
 	private String difficultylevel;
 	private String category;
+	
+	public Integer getId() {
+		return this.id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
 	public String getQuestionTitle() {
 		return questionTitle;
 	}

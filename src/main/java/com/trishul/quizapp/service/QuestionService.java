@@ -1,5 +1,6 @@
 package com.trishul.quizapp.service;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,8 +9,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import com.trishul.quizapp.Question;
 import com.trishul.quizapp.dao.QuestionDao;
+
+import com.trishul.quizapp.model.Question;
 
 @Service
 public class QuestionService {
